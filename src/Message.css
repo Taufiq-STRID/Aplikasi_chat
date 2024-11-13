@@ -1,0 +1,17 @@
+.message {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message.user {
+    align-items: flex-end;
+  }
+  
+  .message.bot {
+    align-items: flex-start;
+  }
+  
+  .text {
+    margin: 5px 0;
+  }
+  
